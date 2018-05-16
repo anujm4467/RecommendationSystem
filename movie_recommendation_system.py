@@ -31,7 +31,7 @@ def sample_recommodention(model , data, user_id) :
         # print out the results
         print("User %s" % user_id)
         print("   Known positives :")
-
+      #
         for x in known_positive[:3]:
             print("               %s" % x)
         print("      Recommendation :")
